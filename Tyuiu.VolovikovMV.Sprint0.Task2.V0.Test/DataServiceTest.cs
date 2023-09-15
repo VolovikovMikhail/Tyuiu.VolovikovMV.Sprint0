@@ -1,20 +1,16 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Tyuiu.VolovikovMV.Sprint0.Task2.V0.Lib;
+using Tyuiu.VolovikovMV.Sprint0.Task3.V0.Lib;
 
-namespace Tyuiu.VolovikovMV.Sprint0.Task2.V0.Test
+namespace Tyuiu.VolovikovMV.Sprint0.Task3.V0.Test
 {
     [TestClass]
     public class DataServiceTest
     {
         [TestMethod]
-        public void CheckGetMessageValid()
+        public void CheckedValid()
         {
-            // Область создания методов тестирования, методов из библиотеки
-            var name = "Михаил";
-            var res = DataService.GetMessage(name);
-            
-            Assert.AreEqual("Привет, Михаил", res);
+            Assert.AreEqual(10, DataService.Sum(5,5));
         }
     }
 }
