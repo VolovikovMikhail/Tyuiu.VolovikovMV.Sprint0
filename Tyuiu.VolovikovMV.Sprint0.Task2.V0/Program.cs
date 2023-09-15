@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.VolovikovMV.Sprint0.Task3.V0.Lib;
+using Tyuiu.VolovikovMV.Sprint0.Task2.V0.Lib;
 
-namespace Tyuiu.VolovikovMV.Sprint0.Task3.V0
+namespace Tyuiu.VolovikovMV.Sprint0.Task2.V0
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(DataService.Sum(7, 7));
+            Console.WriteLine(DataService.GetMessage("Михаил"));
             Console.ReadKey();
         }
     }

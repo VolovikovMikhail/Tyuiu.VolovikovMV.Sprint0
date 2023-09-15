@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5A921FD0-2D7C-4DAB-86AE-6A5F977DF622}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tyuiu.VolovikovMV.Sprint0.Task2.V0</RootNamespace>
-    <AssemblyName>Tyuiu.VolovikovMV.Sprint0.Task2.V0</AssemblyName>
+    <RootNamespace>Tyuiu.VolovikovMV.Sprint0.Task3.V0</RootNamespace>
+    <AssemblyName>Tyuiu.VolovikovMV.Sprint0.Task3.V0</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
